@@ -6,14 +6,14 @@
 /* Mobile styles */
 @media screen and (min-width: 0px) and (max-width: 400px) {
     body {
-        background-color: #F25757; /* Sunset Orange */
+        background-color: #F25757; /* Grapefruit */
     }
 }
 
 /* Tablet styles */
 @media screen and (min-width: 401px) and (max-width: 960px) {
     body {
-        background-color:#61E8E1; /* Black */
+        background-color:#61E8E1; /* Teal */
     }
 }
 
@@ -21,7 +21,7 @@
 /* Desktop styles */
 @media screen and (min-width: 961px) {
     body {
-        background-color: #F2CD60; /* Blue */
+        background-color: #F2CD60; /* Orange */
     }
 }
 
