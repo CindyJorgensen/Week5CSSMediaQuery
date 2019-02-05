@@ -1,0 +1,19 @@
+
+
+/*EXAMPLE 1: SIMPLE CSS MEDIA QUERY - to reduce the width by 75% */
+@media screen {
+    body {
+        width:75%; }
+}
+
+/* Format the body with margins */
+body { margin: 10px; }
+hr { width: 95%; }
+
+
+nav ul {
+    font-size: 90%;
+    text-decoration: none;
+    list-style-type: none;
+}
+

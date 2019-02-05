@@ -1,11 +1,7 @@
 
-/* use the universal selector to differentiate between narrow, medium and wide layouts */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* EXAMPLE 2: CSS MEDIA QUERY - using AND to determine the screen size and display
+ a color for each different screen size - color represent three different categories */
 
 /* Mobile styles */
 @media screen and (max-width: 400px) {
@@ -28,3 +24,17 @@
         background-color: #B2D6FF; /* Blue */
     }
 }
+
+
+/* Format the body with margins */
+body { margin: 10px; }
+
+/* Format the color of the query syntax */
+
+.mediaType { color: orange; }
+
+.mediaFeature { color: blue; }
+
+.atRule { color: purple; }
+
+.logicalExpression {color: hotpink; }

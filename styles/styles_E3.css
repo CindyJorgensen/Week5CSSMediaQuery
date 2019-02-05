@@ -1,0 +1,22 @@
+
+
+/* EXAMPLE 2: CSS MEDIA QUERY - using ONLY to determine the compatability of the browser
+and the use of sytlesheets. I */
+
+@media only screen and (color) and (min-width: 500px) {
+    p {
+        font-size: 150%;
+        color: plum; }
+}
+
+
+/* Format the body */
+body { margin: 10px; }
+hr { width: 95%; }
+
+
+nav ul {
+    font-size: 90%;
+    text-decoration: none;
+    list-style-type: none;
+}

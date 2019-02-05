@@ -1,0 +1,23 @@
+
+
+/* EXAMPLE 4: CSS MEDIA QUERY - using NOT changes the meaning of the query
+ a color for each different screen size - color represent three different categories */
+
+@media not all and (min-width: 900px) {
+   #itWorked {
+       font-size: 200%;
+       color: red;
+       background-color: gray;}
+}
+
+
+/* Format the body */
+body { margin: 10px; }
+hr { width: 95%; }
+
+
+nav ul {
+    font-size: 90%;
+    text-decoration: none;
+    list-style-type: none;
+}

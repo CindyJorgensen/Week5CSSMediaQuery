@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Media Query - Example 2</title>
+        <link rel="stylesheet" type="text/css" href="styles/styles_E4.css" />
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li><b>CSS Media Query Examples</b>
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="Example1_Simple.html">Example 1: Simple Media Query</a></li>
+                    <li> <a href="Example2_AND.html">Example 2: Media Query using the <em>"AND"</em> logical operator</a></li>
+                    <li> <a href="Example3_NOT.html">Example 3: Media Query using the <em>"ONLY"</em> logical operator </a></li>
+                    <li> <a href="Example4_NOT.html">Example 4: Media Query using the <em>"NOT"</em> logical operator</a></li>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+        <div>
+            <h1>Using the NOT logical operator in a CSS Media Query</h1>
+            <p> An example of a media query using the NOT logical expression; which MUST contain a media type and a media feature.</p>
+            <hr/>
+
+            <p id="itWorked"> @media not all and (min-width: 900px) {  <br/>
+                    #itWorked {  <br/>
+                        font-size: 200px;  <br/>
+                        color: red;  <br/>
+                        background-color: gray;}  <br/>
+                 }  <br/>
+            } </p>
+
+            <hr/>
+            <p>If the query returns a TRUE statement the font-size will increase 200%, color changes to red, and the background to gray.</p>
+            <p>
+            <p>   Media Type = ALL <br/>
+            Media Feature - min-width</p>
+        </div>
+    </body>
+
+</html>

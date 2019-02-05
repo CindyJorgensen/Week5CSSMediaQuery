@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Media Query - Example 2</title>
+        <link rel="stylesheet" type="text/css" href="styles/styles_E3.css" />
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li><b>CSS Media Query Examples</b>
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="Example1_Simple.html">Example 1: Simple Media Query</a></li>
+                    <li> <a href="Example2_AND.html">Example 2: Media Query using the <em>"AND"</em> logical operator</a></li>
+                    <li> <a href="Example3_NOT.html">Example 3: Media Query using the <em>"ONLY"</em> logical operator </a></li>
+                    <li> <a href="Example4_NOT.html">Example 4: Media Query using the <em>"NOT"</em> logical operator</a></li>
+
+                </li>
+            </ul>
+        </nav>
+        <hr>
+        <div>
+            <h1>Using the ONLY logical operator in a CSS Media Query</h1>
+            <p> An example of a media query using the ONLY logical expression; which MUST contain a media type and a media feature.</p>
+            <hr/>
+            <p> @media only screen and (color) and (min-width: 500px) { <br/>
+                    p {<br/>
+                        font-size: 150%; <br/>
+                    color: plum; } <br/>
+            } </p>
+            <p>This media query gathers information about the device used to display, to ensure that it is color compatible or monochrome. <br/>
+            and that the disply width is over 500 pixels. <br/>
+            If the statment is true it will increase the font size by 150% and change the font color to plum.</p>
+            <p>   Media Type = screen <br/>
+            Media Feature - min-width and max-width</p>
+        </div>
+    </body>
+
+</html>

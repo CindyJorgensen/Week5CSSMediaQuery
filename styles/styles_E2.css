@@ -1,0 +1,38 @@
+
+
+/* EXAMPLE 2: CSS MEDIA QUERY - using AND to determine the screen size and display
+ a color for each different screen size - color represent three different categories */
+
+/* Mobile styles */
+@media screen and (min-width: 0px) and (max-width: 400px) {
+    body {
+        background-color: #F25757; /* Sunset Orange */
+    }
+}
+
+/* Tablet styles */
+@media screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+        background-color:#61E8E1; /* Black */
+    }
+}
+
+
+/* Desktop styles */
+@media screen and (min-width: 961px) {
+    body {
+        background-color: #F2CD60; /* Blue */
+    }
+}
+
+
+/* Format the body */
+body { margin: 10px; }
+hr { width: 95%; }
+
+
+nav ul {
+    font-size: 90%;
+    text-decoration: none;
+    list-style-type: none;
+}

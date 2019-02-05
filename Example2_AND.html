@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Media Query - Example 2</title>
+        <link rel="stylesheet" type="text/css" href="styles/styles_E2.css" />
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li style="list-style-type: none"><b>CSS Media Query Examples</b>
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="Example1_Simple.html">Example 1: Simple Media Query</a></li>
+                    <li> <a href="Example2_AND.html">Example 2: Media Query using the <em>"AND"</em> logical operator</a></li>
+                    <li> <a href="Example3_ONLY.html">Example 3: Media Query using the <em>"ONLY"</em> logical operator </a></li>
+                    <li> <a href="Example4_NOT.html">Example 4: Media Query using the <em>"NOT"</em> logical operator</a></li>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+        <div id="andExpression">
+            <h1>CSS Media Query using the AND logical operator</h1>
+            <p> An example of three separate media queries that change the background color according to the device (media type).</p>
+            <hr/>
+            <p style="font-size: 125%"> /* Mobile styles */<br/>
+                    @media screen and (min-width: 0px) and (max-width: 400px) { <br/>
+                        body {<br/>
+                            background-color: #F25757; /* Sunset Orange */ }<br/>
+                    }<br/>
+                    <br/>
+                    /* Tablet styles */<br/>
+                    @media screen and (min-width: 401px) and (max-width: 960px) {<br/>
+                        body {<br/>
+                            background-color:#61E8E1; /* Black */ }<br/>
+                    }<br/>
+                    <br/>
+                    
+                    /* Desktop styles */<br/>
+                    @media screen and (min-width: 961px) {<br/>
+                        body {<br/>
+                            background-color: #F2CD60; /* Blue */                        }<br/>
+
+                    } </p>
+                    <hr/>
+            <p>This media query gathers information about the device used to display the content and <br/>
+            then checks to see if the display has a display width of ( 0 - 400px), (401px - 960px), and (over 961px).</p>
+            <br/>
+            <p>   Media Type = screen <br/>
+            Media Feature - min-width and max-width</p>
+        </div>
+    </body>
+
+</html>
